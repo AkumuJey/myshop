@@ -1,17 +1,15 @@
 <template>
     <div>
     <header>
-      <nav>
-        <ul>
-          <li><nuxt-link to="/products">Products</nuxt-link></li>
-        </ul>
+      <nav class="container mx-auto p-4">
+        <nuxt-link to="/products" class="font-bold">Products</nuxt-link>
       </nav>
     </header>
-    <div>
+    <div class="container mx-auto p-4">
         <slot />
     </div>
-    <footer>
-        <ul>
+    <footer class="container p-4 mx-auto flex justify-between border-t-2">
+        <ul class="flex gap-4">
           <li><nuxt-link to="/">Home</nuxt-link></li>
           <li><nuxt-link to="/products">Products</nuxt-link></li>
           <li><nuxt-link to="/about">About</nuxt-link></li>
@@ -24,7 +22,5 @@
 </script>
 
 <style>
-.router-link-exact-active {
-    color:brown;
-}
+
 </style>

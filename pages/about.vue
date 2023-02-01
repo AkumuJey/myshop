@@ -10,11 +10,5 @@
   </script>
   
   <style>
-  h1 {
-      background: lightblue;
-      padding: 5px;
-  }
-  p{
-      margin: 10px;
-  }
+ 
   </style>
