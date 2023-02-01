@@ -3,10 +3,8 @@
 @tailwind utilities;
 
 @layer components {
-    .router-link-exact-active {
-        @apply text-green-600
-    }
+    
     .btn {
-        
+        @apply bg-green-400 text-white px-3 py-2 rounded-md text-sm;
     }
 }
