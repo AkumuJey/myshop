@@ -7,4 +7,7 @@
     .btn {
         @apply bg-green-400 text-white px-3 py-2 rounded-md text-sm;
     }
+    .card {
+        @apply p-3 rounded bg-slate-50 shadow-md h-full
+    }
 }

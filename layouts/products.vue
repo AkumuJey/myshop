@@ -2,7 +2,7 @@
     <div>
     <header>
       <nav class="container mx-auto p-4">
-        <nuxt-link to="/products" class="font-bold">Products</nuxt-link>
+        <nuxt-link to="/products" class="font-bold btn">Products</nuxt-link>
       </nav>
     </header>
     <div class="container mx-auto p-4">
