@@ -1,7 +1,8 @@
 <template>
     <div>
     <header>
-      <nav class="container mx-auto p-4">
+      <nav class="container mx-auto p-4 flex">
+        <nuxt-link to="/" class="btn">Home</nuxt-link>
         <nuxt-link to="/products" class="font-bold btn">Products</nuxt-link>
       </nav>
     </header>
